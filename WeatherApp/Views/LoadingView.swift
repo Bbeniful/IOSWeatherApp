@@ -1,0 +1,19 @@
+//
+//  LoadingView.swift
+//  WeatherApp
+//
+//  Created by Benjámin Szilágyi on 09/12/2023.
+//
+
+import SwiftUI
+
+struct LoadingView: View {
+    var body: some View {
+        ProgressView().progressViewStyle(CircularProgressViewStyle(tint: .white))
+            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,maxHeight: .infinity)
+    }
+}
+
+#Preview {
+    LoadingView()
+}
